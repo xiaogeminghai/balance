@@ -29,7 +29,7 @@ extern "C"{
 #endif /* __cplusplus */
 
 
-#if PKG_USING_BALANCE
+#ifdef PKG_USING_BALANCE
 //定义大小端模式
 #ifndef __LITTLE_ENDIAN
 #define __LITTLE_ENDIAN 1

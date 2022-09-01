@@ -24,7 +24,7 @@
 #include <balance.h>
 
 
-#if PKG_USING_BALANCE
+#ifdef PKG_USING_BALANCE
 
 balance_struct_t balance[3] =
         {
