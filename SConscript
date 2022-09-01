@@ -7,7 +7,7 @@ cwd = GetCurrentDir()
 src = Split('''
 balance/balance.c
 ''')
-path = [cwd]
+path = [cwd+'/balance']
 
 group = DefineGroup('balance', src, depend = ['PKG_USING_BALANCE'], CPPPATH = path)
 
