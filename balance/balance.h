@@ -20,7 +20,7 @@
 #include <rtthread.h>   //内核头文件
 #include <rtdevice.h>   //设备头文件
 #include <board.h>      //硬件头文件
-
+#include "rtconfig.h"
 
 #ifdef __cplusplus
 #if __cplusplus
